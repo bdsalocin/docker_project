@@ -5,6 +5,7 @@
   list-style-type: none;
   font-family: "Roboto", "sans-serif";
 }
+
 /* Navigation Nicolas */
 nav {
   background-color: #add8e6;
@@ -62,7 +63,7 @@ nav {
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin: 50px;
 }
 
 .membre {
