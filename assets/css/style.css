@@ -70,6 +70,61 @@ footer {
 .team-section h1 {
   padding-top: 100px;
 }
+
+.banniedocker {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+.banniedocker img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center center;
+display: block;
+}
+
+.description {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.texteavantage {
+  text-align: center;
+  font-size: 25px ;
+  max-width: 170px;
+}
+
+.textecasdusage {
+  text-align: right ;
+  font-size: 25px ;
+  max-width: 170px;
+}
+
+.textesectionequipe {
+  text-align: center ;
+  font-size: 25px ;
+  max-width: 170px;
+  justify-content: center;
+  
+}
+
+.texte2 {
+  text-align: center ;
+  font-size: 25px ;
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  padding: 100px;
+}
+.texte {
+  padding: 100px;
+}
+.texte3 {
+  padding: 100px;
+}
+
 .team-section {
   text-align: center;
 }
@@ -105,7 +160,3 @@ footer {
   font-size: 14px;
   margin-top: 10px;
 }
-
-/* Body Chloé */
-
-/* Footer Brian */
