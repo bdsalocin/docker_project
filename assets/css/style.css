@@ -1,12 +1,19 @@
 * {
   margin: 0;
-  padding: auto;
   box-sizing: border-box;
   list-style-type: none;
   font-family: "Roboto", sans-serif;
 }
 
-/* Navigation Nicolas */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  overflow-x: hidden;
+}
+
 nav {
   background-color: #add8e6;
   padding: 15px 30px;
@@ -43,89 +50,82 @@ nav {
   color: #005377;
 }
 
-/* Section Brian */
-footer img {
-  width: 200px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #181f1f;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @media (max-width: 850px) {
   .titre-nav {
     display: none;
   }
 }
 
-/* Section notre Équipe */
-
-.team-section h1 {
-  padding-top: 100px;
-}
-
 .banniedocker {
   width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
   height: 550px;
   overflow: hidden;
 }
+
 .banniedocker img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-object-position: center center;
-display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.description {
+.texte {
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.description p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
   text-align: center;
-  font-size: 25px;
   font-weight: bold;
 }
 
-.texteavantage {
-  text-align: center;
-  font-size: 25px ;
-  max-width: 170px;
-}
-
-.textecasdusage {
-  text-align: right ;
-  font-size: 25px ;
-  max-width: 170px;
-}
-
-.textesectionequipe {
-  text-align: center ;
-  font-size: 25px ;
-  max-width: 170px;
-  justify-content: center;
-  
-}
-
 .texte2 {
-  text-align: center ;
-  font-size: 25px ;
   display: flex;
-  justify-content: center;
-  gap: 500px;
-  padding: 100px;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 25px;
 }
-.texte {
-  padding: 100px;
+
+.texteavantage,
+.textecasdusage,
+.textesectionequipe {
+  flex: 1 1 30%;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  min-width: 280px;
 }
-.texte3 {
-  padding: 100px;
+
+.texteavantage h1,
+.textecasdusage h1,
+.textesectionequipe h1 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #004080;
+}
+
+.texteavantage p,
+.textecasdusage p,
+.textesectionequipe p {
+  font-size: 1rem;
+  line-height: 1.4;
+  white-space: pre-line;
 }
 
 .team-section {
   text-align: center;
+  padding-top: 100px;
 }
 
 .team {
@@ -158,4 +158,47 @@ display: block;
 .membre p {
   font-size: 14px;
   margin-top: 10px;
+}
+
+footer {
+  background-color: #e0e7f8;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+footer .logo img {
+  width: auto;
+  height: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media (max-width: 850px) {
+  .titre-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .texte2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .texteavantage,
+  .textecasdusage,
+  .textesectionequipe {
+    flex: 1 1 100%;
+    min-width: auto;
+  }
 }
