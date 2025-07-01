@@ -6,7 +6,7 @@
 }
 /* Navigation Nicolas */
 nav {
-  background-color: #add8e6; /* light blue */
+  background-color: #add8e6;
   padding: 15px 30px;
 }
 
@@ -17,7 +17,7 @@ nav {
 }
 
 .logo img {
-  height: 40px; /* taille du logo */
+  height: 40px;
   width: auto;
 }
 
@@ -30,7 +30,7 @@ nav {
 }
 
 .nav-links a {
-  color: #000000; /* noir */
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -38,9 +38,8 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #005377; /* moby blue */
+  color: #005377;
 }
-
 /* Body Chloé */
 
 /* Footer Brian */
