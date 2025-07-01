@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-family: "Roboto", "sans-serif";
 }
 /* Navigation Nicolas */
 nav {
@@ -40,6 +41,48 @@ nav {
 .nav-links a:hover {
   color: #005377;
 }
+
+/* Section notre Équipe */
+
+h1 {
+  padding-top: 100px;
+}
+.team-section {
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.membre {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.membre img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.membre h2 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.membre p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 /* Body Chloé */
 
 /* Footer Brian */
